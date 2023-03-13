@@ -15,8 +15,10 @@
 
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-#echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+echo 'src-git luci-app-openclash https://github.com/vernesong/OpenClash.git' >>feeds.conf.default
 
-git clone https://github.com/vernesong/OpenClash.git package/
-cd OpenClash
-mv luci-app-openclash ../
+# Customized packages download
+# git clone https://github.com/vernesong/OpenClash.git package/
+# ls -l
+# cd package/OpenClash
+# mv luci-app-openclash ../
